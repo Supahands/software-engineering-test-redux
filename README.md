@@ -1,5 +1,6 @@
 # Supahands Coding Assessment
 * This is a coding asssessment for prospective supahands engineers
+* Bear in mind that you want to be VERY VERY IMPRESSIVE, SHOW OFF!!!!
 * Please create a new file for the solution, **DO NOT** modify the seed.py file
 * The seed file **MUST NOT** be modified, it is expected to generate a list of random timestamps to be used in the test
 
