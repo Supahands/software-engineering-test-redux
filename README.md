@@ -44,12 +44,14 @@
 
 ## Assessment Criteria
 * Submitted code will be assessed based on the following criteria
-  * Cyclomatic complexity
-  * Maintainability index
-  * Best practices
-  * Elegance of solution
-  * Defensibility of code
-  * Optimization
+  * Does it work? The solution should work in replit or codecollab
+  * Do we have tests, and do they work?
+  * Did the candidate follow instructions and use replit/codecollab, include tests, include the seed file instead of pasting the data gen into their code etc, as well as other instructions found here.
+  * Defensibility - Does the code handle dirty data, incorrect input data, attacks?
+  * Maintainability - Is the code written with small discrete functions, using either a functional or object oriented approach
+  * Best practices - Good test coverage, good tests, testing both positive and negative outcomes, good naming of methods and functions in the code
+  * Run time or space efficiency vs Input Growth - Write the most optimal code possible
+
 
 
 ## Outputs
