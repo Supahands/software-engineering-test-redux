@@ -51,7 +51,7 @@
   * Maintainability - Is the code written with small discrete functions, using either a functional or object oriented approach
   * Best practices - Good test coverage, good tests, testing both positive and negative outcomes, good naming of methods and functions in the code
   * Run time or space efficiency vs Input Growth - Write the most optimal code possible
-
+* The gist is that the candidate should write production quality code
 
 
 ## Outputs
