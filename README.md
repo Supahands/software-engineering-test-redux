@@ -9,7 +9,7 @@
 * Output a table with time stamps sorted by consecutive logins, sorted by descending length
 * For example, if given the following timestamps 
   * ['2021-03-13 15:13:05', '2021-03-13 23:13:05', '2021-03-16 15:13:05', '2021-03-16 23:13:05', '2021-03-17 07:13:05', '2021-03-17 15:13:05', '2021-03-17 23:13:05', '2021-03-18 07:13:05', '2021-03-18 15:13:05']
-* DO NOT use the example above as input
+* **DO NOT** use the example above as input
 * Since the longest period of consecutive logins occur from 2021-03-16 to 2021-03-18, the answer would be
 
 | START      | END        | LENGTH |
@@ -23,17 +23,12 @@
 ## Submission Instructions
 * Fork the project [here](https://replit.com/@Kaizenx/software-engineering-test-redux)
 * You can solve the problem using either python, javascript, or ruby
-* Use the seed file to generate your output
-* Use the seed file **AS IS**, do not modify the inherent logic of the seed file
-* However, feel free to create js or rb versions of the seed file without modifying the inherent logic in the python original
-* Do not copy the logic of the seed file into your code
-* Notify [careers@supahands.com](mailto:careers@supahands.com) upon completion and include the join link for your replit.com project
-* Solutions that do not follow the submission instructions WILL NOT be considered
-* Remember to include unit tests either as separate files or using the replit test functionality
-* **REMINDER DO NOT** edit or amend the seed file
-* Include a separate readme in the form of a **instructions.txt** if additional instructions are required to get your solution running, such as installing libraries
-* Your solution should follow best practices such as DRY, KISS, YAGNI, SOLID etc.
 * Feel free to use 3rd party libraries
+* The submitted solution should ingest the STDOUT emitted by the seed.py file without copying the source code into the solution file and running it from inside the solution file. Importing the seed.py and running it from within the solution to subsequently pipe the STDOUT to a variable is allowed.
+* Feel free to create js or rb versions of the seed file without modifying the code logic of the original seed.py
+* Include unit tests either as separate files or use the replit test functionality
+* Include a separate readme in the form of a **instructions.txt** if additional instructions are required to get your solution running, **such as installing libraries**
+* Notify [careers@supahands.com](mailto:careers@supahands.com) upon completion and include the join link for your replit.com project
 * Solutions that do not follow the submission instructions WILL NOT be considered
 
 ## Hints
@@ -48,9 +43,9 @@
   * Did the candidate read the README and comprehended the instructions in the README?
   * Defensibility - Does the code handle dirty data, incorrect input data, attacks?
   * Maintainability - Is the code written with small discrete functions, using either a functional or object oriented approach
-  * Best practices - Good test coverage, good tests, testing both positive and negative outcomes, good naming of methods and functions in the code
+  * Best practices - Good test coverage, good tests, testing both positive and negative outcomes, good naming of methods and functions in the code. Solution follows best practices such as DRY, KISS, YAGNI, SOLID etc.
   * Run time or space efficiency vs Input Growth - Write the most optimal code possible
-* The gist is that the candidate should write production quality code
+* Candidate should write high quality production ready code
 
 
 ## Expected Outputs
